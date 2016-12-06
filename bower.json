@@ -1,0 +1,23 @@
+{
+  "name": "mean",
+  "description": "mean project using bower",
+  "main": "",
+  "authors": [
+    "Jungieve <zihan.cong@gmail.com>"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/Jungieve/wechat_MEAN",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "public/components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "1.5.8",
+    "angular-resource": "1.5.8",
+    "angular-route": "1.5.8"
+  }
+}
