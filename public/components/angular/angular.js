@@ -14805,7 +14805,7 @@ ASTCompiler.prototype = {
     this.recurse(ast);
     var fnString =
       // The build and minification steps remove the string "use strict" from the code, but this is done using a regex.
-      // This is a workaround for this until we do a better job at only removing the prefix only when we should.
+      // This is a workaround for this until we do a better services at only removing the prefix only when we should.
       '"' + this.USE + ' ' + this.STRICT + '";\n' +
       this.filterPrefix() +
       'var fn=' + this.generateFunction('fn', 's,l,a,i') +
