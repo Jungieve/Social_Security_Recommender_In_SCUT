@@ -14,8 +14,7 @@
     <link rel="stylesheet" href="css/app.css" type="text/css"/>
 </head>
 <body ng-app="myApp">
-<div ng-controller="test" class="app app-header-fixed" id="app">
-
+<div class="app app-header-fixed" id="app">
 
     <!-- navbar -->
     <div class="app-header navbar">
@@ -254,7 +253,7 @@
                 <img src="img/a0.jpg" alt="...">
                 <i class="on md b-white bottom"></i>
               </span>
-                        <span class="hidden-sm hidden-md">John.Smith</span> <b class="caret"></b>
+                        <span class="hidden-sm hidden-md">丛子涵</span> <b class="caret"></b>
                     </a>
                     <!-- dropdown -->
                     <ul class="dropdown-menu animated fadeInRight w">
@@ -352,7 +351,7 @@
                 <nav ui-nav class="navi">
                     <ul class="nav">
                         <li class="hidden-folded padder m-t m-b-sm text-muted text-xs">
-                            <span translate="aside.nav.HEADER">Navigation</span>
+                            <span translate="aside.nav.HEADER">我的申请</span>
                         </li>
                         <li>
                             <a href class="auto">
@@ -400,7 +399,7 @@
                         <li class="line dk"></li>
 
                         <li class="hidden-folded padder m-t m-b-sm text-muted text-xs">
-                            <span translate="aside.nav.components.COMPONENTS">Jobs</span>
+                            <span translate="aside.nav.components.COMPONENTS">按条件筛选</span>
                         </li>
                         <li>
                             <a href class="auto">
@@ -410,7 +409,7 @@
                   </span>
                                 <b class="badge bg-info pull-right">3</b>
                                 <i class="glyphicon glyphicon-th"></i>
-                                <span>Layout</span>
+                                <span>工作地区</span>
                             </a>
                             <ul class="nav nav-sub dk">
                                 <li class="nav-sub-header">
@@ -420,17 +419,17 @@
                                 </li>
                                 <li ui-sref-active="active">
                                     <a ui-sref="layout.app">
-                                        <span>Application</span>
+                                        <span>番禺</span>
                                     </a>
                                 </li>
                                 <li ui-sref-active="active">
                                     <a ui-sref="layout.fullwidth">
-                                        <span>Full width</span>
+                                        <span>天河</span>
                                     </a>
                                 </li>
                                 <li ui-sref-active="active">
                                     <a ui-sref="layout.mobile">
-                                        <span>Mobile</span>
+                                        <span>荔湾</span>
                                     </a>
                                 </li>
                             </ul>
@@ -442,7 +441,7 @@
                     <i class="fa fa-fw fa-angle-down text-active"></i>
                   </span>
                                 <i class="glyphicon glyphicon-briefcase icon"></i>
-                                <span translate="aside.nav.components.ui_kits.UI_KITS">UI Kits</span>
+                                <span translate="aside.nav.components.ui_kits.UI_KITS">工资待遇</span>
                             </a>
                             <ul class="nav nav-sub dk">
                                 <li class="nav-sub-header">
@@ -523,7 +522,7 @@
                   </span>
                                 <b class="label bg-primary pull-right">2</b>
                                 <i class="glyphicon glyphicon-list"></i>
-                                <span translate="aside.nav.components.table.TABLE">Table</span>
+                                <span translate="aside.nav.components.table.TABLE">福利待遇</span>
                             </a>
                             <ul class="nav nav-sub dk">
                                 <li class="nav-sub-header">
@@ -560,7 +559,7 @@
                     <i class="fa fa-fw fa-angle-down text-active"></i>
                   </span>
                                 <i class="glyphicon glyphicon-edit"></i>
-                                <span translate="aside.nav.components.form.FORM">Form</span>
+                                <span translate="aside.nav.components.form.FORM">发布时间</span>
                             </a>
                             <ul class="nav nav-sub dk">
                                 <li class="nav-sub-header">
@@ -598,7 +597,7 @@
                         <li ui-sref-active="active">
                             <a ui-sref="app.chart">
                                 <i class="glyphicon glyphicon-signal"></i>
-                                <span translate="aside.nav.components.CHART">Chart</span>
+                                <span translate="aside.nav.components.CHART">工作年限</span>
                             </a>
                         </li>
                         <li ng-class="{active:$state.includes('app.page')}">
@@ -608,7 +607,7 @@
                     <i class="fa fa-fw fa-angle-down text-active"></i>
                   </span>
                                 <i class="glyphicon glyphicon-file icon"></i>
-                                <span translate="aside.nav.components.pages.PAGES">Pages</span>
+                                <span translate="aside.nav.components.pages.PAGES">行业领域</span>
                             </a>
                             <ul class="nav nav-sub dk">
                                 <li class="nav-sub-header">
@@ -672,7 +671,7 @@
                         <li class="line dk hidden-folded"></li>
 
                         <li class="hidden-folded padder m-t m-b-sm text-muted text-xs">
-                            <span translate="aside.nav.your_stuff.YOUR_STUFF">Your Profile</span>
+                            <span translate="aside.nav.your_stuff.YOUR_STUFF">基本信息</span>
                         </li>
                         <li>
                             <a ui-sref="app.page.profile">
@@ -733,8 +732,8 @@
                                     </a>
                                     <div class="clear m-b">
                                         <div class="m-b m-t-sm">
-                                            <span class="h3 text-black">John.Smith</span>
-                                            <small class="m-l">London, UK</small>
+                                            <span class="h3 text-black">丛子涵</span>
+                                            <small class="m-l">广州, 中国</small>
                                         </div>
                                         <p class="m-b">
                                             <a href class="btn btn-sm btn-bg btn-rounded btn-default btn-icon"><i
@@ -744,18 +743,17 @@
                                             <a href class="btn btn-sm btn-bg btn-rounded btn-default btn-icon"><i
                                                     class="fa fa-google-plus"></i></a>
                                         </p>
-                                        <a href class="btn btn-sm btn-success btn-rounded">Follow</a>
                                     </div>
                                 </div>
                                 <div class="col-sm-5">
                                     <div class="pull-right pull-none-xs text-center">
                                         <a href class="m-b-md inline m">
-                                            <span class="h3 block font-bold">2k</span>
-                                            <small>Followers</small>
+                                            <span class="h3 block font-bold">20</span>
+                                            <small>已申请的工作</small>
                                         </a>
                                         <a href class="m-b-md inline m">
                                             <span class="h3 block font-bold">250</span>
-                                            <small>Following</small>
+                                            <small>已收藏的工作</small>
                                         </a>
                                     </div>
                                 </div>
@@ -764,60 +762,13 @@
                     </div>
                     <div class="wrapper bg-white b-b">
                         <ul class="nav nav-pills nav-sm">
-                            <li class="active"><a href>最新职位</a></li>
+                            <li class="active"><a href>猜你喜欢</a></li>
                             <li><a href>最热职位</a></li>
-                            <li><a href>职位推荐</a></li>
                         </ul>
                     </div>
                     <div class="padder">
-                        <div class="streamline b-l b-info m-l-lg m-b padder-v">
-                            <div>
-                                <a class="pull-left thumb-sm avatar m-l-n-md">
-                                    <img src="img/a9.jpg" class="img-circle" alt="...">
-                                </a>
-                                <div class="m-l-lg">
-                                    <div class="m-b-xs">
-                                        <a href class="h4">John smith</a>
-                                        <span class="text-muted m-l-sm pull-right">
-                          Just now
-                        </span>
-                                    </div>
-                                    <div class="m-b">
-                                        <div>Lorem ipsum dolor sit amet, consecteter adipiscing elit, sed diam nonummy
-                                            nibh euismod tincidunt ut laoreet. ullamcorper sodales nisi nec adipiscing
-                                            elit. Morbi id neque quam. Aliquam sollicitudin
-                                        </div>
-                                        <div class="m-t-sm">
-                                            <a href class="text-muted m-xs"><i class="icon-action-redo"></i></a>
-                                            <a href class="text-muted m-xs"><i class="icon-star"></i></a>
-                                            <a href class="text-muted m-xs"><i class="icon-refresh"></i> 13</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div>
-                                <a class="pull-left thumb-sm avatar m-l-n-md">
-                                    <img src="img/a6.jpg" class="img-circle" alt="...">
-                                </a>
-                                <div class="m-l-lg m-b-lg">
-                                    <div class="m-b-xs">
-                                        <a href class="h4">Jessica</a>
-                                        <span class="text-muted m-l-sm pull-right">3h ago</span>
-                                    </div>
-                                    <div class="m-b">
-                                        <div class="m-b">Cecteter adipiscing elit, sed diam nonummy nibh euismod
-                                            tincidunt ut laoreet. ullamcorper sodales nisi nec adipiscing elit. Morbi id
-                                            neque quam. Aliquam sollicitudin
-                                        </div>
-                                        <div class="m-t-sm">
-                                            <a href class="text-muted m-xs"><i class="icon-action-redo"></i></a>
-                                            <a href class="text-muted m-xs"><i class="icon-star"></i></a>
-                                            <a href class="text-muted m-xs"><i class="icon-refresh"></i> 13</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <job></job>
+                        <div class="streamline b-l b-info m-l-lg m-b padder-v" ng-controller="jobs">
+                            <item jobs="items"></item>
                         </div>
                     </div>
                 </div>
@@ -825,7 +776,7 @@
                 <div class="col w-lg bg-light lter b-l bg-auto">
                     <div class="wrapper">
                         <div class="">
-                            <h4 class="m-t-xs m-b-xs">Who to follow</h4>
+                            <h4 class="m-t-xs m-b-xs">最新公司</h4>
                             <ul class="list-group no-bg no-borders pull-in">
                                 <li class="list-group-item">
                                     <a herf class="pull-left thumb-sm avatar m-r">
@@ -833,18 +784,8 @@
                                         <i class="on b-white bottom"></i>
                                     </a>
                                     <div class="clear">
-                                        <div><a href>Chris Fox</a></div>
-                                        <small class="text-muted">Designer, Blogger</small>
-                                    </div>
-                                </li>
-                                <li class="list-group-item">
-                                    <a herf class="pull-left thumb-sm avatar m-r">
-                                        <img src="img/a5.jpg" alt="..." class="img-circle">
-                                        <i class="on b-white bottom"></i>
-                                    </a>
-                                    <div class="clear">
-                                        <div><a href>Mogen Polish</a></div>
-                                        <small class="text-muted">Writter, Mag Editor</small>
+                                        <div><a href>广州市博晟秀艺文化传播有限公司 </a></div>
+                                        <small class="text-muted">包吃住, 交五险一金</small>
                                     </div>
                                 </li>
                                 <li class="list-group-item">
@@ -853,8 +794,8 @@
                                         <i class="busy b-white bottom"></i>
                                     </a>
                                     <div class="clear">
-                                        <div><a href>Joge Lucky</a></div>
-                                        <small class="text-muted">Art director, Movie Cut</small>
+                                        <div><a href>广州金世界酒店有限公司</a></div>
+                                        <small class="text-muted">包吃住, 做五休二</small>
                                     </div>
                                 </li>
                                 <li class="list-group-item">
@@ -863,31 +804,29 @@
                                         <i class="away b-white bottom"></i>
                                     </a>
                                     <div class="clear">
-                                        <div><a href>Folisise Chosielie</a></div>
-                                        <small class="text-muted">Musician, Player</small>
+                                        <div><a href>广州市番禺区大石宇翼蓄电池经营部</a></div>
+                                        <small class="text-muted">交五险一金, 话补</small>
                                     </div>
                                 </li>
                             </ul>
                         </div>
                         <div class="panel b-a">
-                            <h4 class="font-thin padder">Latest Tweets</h4>
+                            <h4 class="font-thin padder">最新消息</h4>
                             <ul class="list-group">
                                 <li class="list-group-item">
-                                    <p>Wellcome <a href class="text-info">@Drew Wllon</a> and play this web application
-                                        template, have fun1 </p>
-                                    <small class="block text-muted"><i class="fa fa-fw fa-clock-o"></i> 2 minuts ago
+                                    <p><a href class="text-info">北京华建英才信息咨询有限责任公司广州分公司</a>
+                                        急需一级监理、造价、一建 建造师挂靠</p>
+                                    <small class="block text-muted"><i class="fa fa-fw fa-clock-o"></i> 2分钟前
                                     </small>
                                 </li>
                                 <li class="list-group-item">
-                                    <p>Morbi nec <a href class="text-info">@Jonathan George</a> nunc condimentum ipsum
-                                        dolor sit amet, consectetur</p>
-                                    <small class="block text-muted"><i class="fa fa-fw fa-clock-o"></i> 1 hour ago
+                                    <p><a href class="text-info">北京普昌旺斯花卉经营部</a> 高薪招聘花店花艺师学徒 </p>
+                                    <small class="block text-muted"><i class="fa fa-fw fa-clock-o"></i> 1小时前
                                     </small>
                                 </li>
                                 <li class="list-group-item">
-                                    <p><a href class="text-info">@Josh Long</a> Vestibulum ullamcorper sodales nisi nec
-                                        adipiscing elit. Morbi id neque quam. Aliquam sollicitudin venenatis</p>
-                                    <small class="block text-muted"><i class="fa fa-fw fa-clock-o"></i> 2 hours ago
+                                    <p><a href class="text-info">广州市金砂建材有限公司</a> 华菱搅拌车机修、电路 </p>
+                                    <small class="block text-muted"><i class="fa fa-fw fa-clock-o"></i> 2小时前
                                     </small>
                                 </li>
                             </ul>

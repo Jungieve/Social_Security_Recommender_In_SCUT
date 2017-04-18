@@ -2,8 +2,8 @@
  * Created by congzihan on 16/12/7.
  */
 var mongoose = require('mongoose');
-var Schema = mongoose.Schema;
 var async = require('async');
+mongoose.Promise = global.Promise
 
 /*
     mongodb分页,pageNumber: 当前第几页（从1 开始算）
